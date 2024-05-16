@@ -33,7 +33,7 @@
             <HBox alignment="CENTER" layoutX="250.0" layoutY="367.0" prefHeight="18.0" prefWidth="300.0" spacing="11.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="vous n'avez pas de compte ?" />
-                  <Text fill="#0866ff" strokeType="OUTSIDE" strokeWidth="0.0" text="S'inscrire" underline="true" />
+                  <Text fill="#0866ff" onMouseClicked="#signUpConnect" strokeType="OUTSIDE" strokeWidth="0.0" text="S'inscrire" underline="true" />
                </children>
             </HBox>
             <Button layoutX="760.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="40.0" styleClass="close" stylesheets="@../../../css/styles.css" text="X" />
