@@ -7,7 +7,4 @@ public class SignUp {
 
     @FXML
     private TextField id;
-
-    id.setOpacity(5);
-
 }
