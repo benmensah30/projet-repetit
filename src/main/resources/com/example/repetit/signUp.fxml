@@ -54,7 +54,7 @@
                   <VBox>
                      <children>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" />
-                        <TextField prefHeight="32.0" prefWidth="300.0" styleClass="textInput" stylesheets="@../../../css/styles.css" />
+                        <TextField fx:id="id" prefHeight="32.0" prefWidth="300.0" styleClass="textInput" stylesheets="@../../../css/styles.css" />
                      </children>
                   </VBox>
                   <VBox>
