@@ -1,0 +1,30 @@
+.close {
+    -fx-background-color : transparent;
+}
+
+.close:hover {
+    -fx-background-color : red;
+    -fx-cursor : hand;
+}
+
+.connectButton {
+    -fx-background-color : #322514;
+}
+
+.connectButton:hover {
+    -fx-background-color : #563d1f;
+    -fx-cursor : hand;
+}
+
+.radius1 {
+    -fx-background-radius : 8px;
+    -fx-border-radius : 8px;
+}
+
+.bgColor {
+    -fx-background-color : #fbcbc9;
+}
+
+.textInput {
+    -fx-border : 0 0 2px 0;
+}
