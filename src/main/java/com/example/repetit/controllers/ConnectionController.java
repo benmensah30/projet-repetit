@@ -23,12 +23,15 @@ public class ConnectionController {
     //methode qui permet de passer de la page de connexion a la page d'inscription
     public void signUpConnect() throws IOException {
 
+
         Parent good = FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("signUp.fxml")));
         Stage stg = new Stage();
         Scene scene = new Scene(good);
         stg.setScene(scene);
         stg.show();
 
+        Stage connectscene = (Stage) usernameTF.getScene().getWindow();
+        connectscene.close();
     }
 
 }
